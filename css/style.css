@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    color:black;
+    background-color:white;
+}
+header{
+    padding: 10px;
+    background-color:white;
+    text-align: left;
+    color:white
+}
+#banner{
+    background-color: gray;
+    color: white;
+    background-size: cover;
+    background-position: top 70px center;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 270px;
+}
+#banner-content{
+    max-width: 600px;
+    text-align: center;
+}
+#banner h1{
+    margin: 0 0 20px;
+    font-size: 1.8em;
+}
+.button{
+    display: inline-block;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1em;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+main{
+    padding: 15px;
+}
+#anmeldelser{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.anmeldelse{
+    text-align: center;
+    padding: 40px 20px;
+    padding-top: 40px;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,1);
+    width: 200px;
+}
+section.products{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+#produkter h2{
+    padding-top: 70px;
+}
+.produkt-kort{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+.produkt-kort img{
+    max-width: 100%;
+    border-radius: 5px;
+}
+.produkt-kort h2{
+    margin: 10px 0;
+    font-size: 16px;
+}
+.categories{
+    margin: 70px 0;
+}
+.category-container{
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 15px;
+}
+.category-card{
+    background: white;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.category-card h3{
+    margin: 10px 0;
+    color: black;
+}
+.personopplysninger{
+    padding: 30px;
+}
+.personopplysninger form{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.personopplysninger input{
+    padding-bottom: 30px;
+}
+.levering{
+    padding: 30px;
+}
+.betaling{
+    padding: 30px;
+}
+.betaling form{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.betaling input{
+    padding-bottom: 30px;
+}
